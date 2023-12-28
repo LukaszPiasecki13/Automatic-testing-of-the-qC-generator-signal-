@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.8.10 on win32)" generated="20230629 22:57:16.451" rpa="false" schemaversion="3">
+<suite id="s1" name="test PWM" source="D:\Studia\Python_code\ds18b20_test\test_PWM.robot">
+<test id="s1-t1" name="Read_data" line="7">
+<kw name="Read Data" library="TestPwmLibrary">
+<status status="PASS" starttime="20230629 22:57:32.586" endtime="20230629 22:57:40.624"/>
+</kw>
+<status status="PASS" starttime="20230629 22:57:32.586" endtime="20230629 22:57:40.624"/>
+</test>
+<test id="s1-t2" name="Scenario h" line="11">
+<kw name="Scenario H" library="TestPwmLibrary">
+<status status="PASS" starttime="20230629 22:57:40.626" endtime="20230629 22:57:43.637"/>
+</kw>
+<status status="PASS" starttime="20230629 22:57:40.626" endtime="20230629 22:57:43.637"/>
+</test>
+<test id="s1-t3" name="Scenario l" line="15">
+<kw name="Scenario L" library="TestPwmLibrary">
+<status status="PASS" starttime="20230629 22:57:43.637" endtime="20230629 22:57:46.652"/>
+</kw>
+<status status="PASS" starttime="20230629 22:57:43.637" endtime="20230629 22:57:46.652"/>
+</test>
+<test id="s1-t4" name="Scenario 1" line="25">
+<kw name="Scenario 1" library="TestPwmLibrary">
+<status status="PASS" starttime="20230629 22:57:46.652" endtime="20230629 22:57:54.704"/>
+</kw>
+<status status="PASS" starttime="20230629 22:57:46.652" endtime="20230629 22:57:54.704"/>
+</test>
+<test id="s1-t5" name="Scenario 2" line="30">
+<kw name="Scenario 2" library="TestPwmLibrary">
+<status status="PASS" starttime="20230629 22:57:54.704" endtime="20230629 22:58:02.723"/>
+</kw>
+<status status="PASS" starttime="20230629 22:57:54.704" endtime="20230629 22:58:02.723"/>
+</test>
+<test id="s1-t6" name="Scenario 4" line="34">
+<kw name="Scenario 4" library="TestPwmLibrary">
+<status status="PASS" starttime="20230629 22:58:02.723" endtime="20230629 22:58:10.768"/>
+</kw>
+<status status="PASS" starttime="20230629 22:58:02.723" endtime="20230629 22:58:10.768"/>
+</test>
+<test id="s1-t7" name="Scenario 8" line="39">
+<kw name="Scenario 8" library="TestPwmLibrary">
+<status status="PASS" starttime="20230629 22:58:10.768" endtime="20230629 22:58:18.805"/>
+</kw>
+<status status="PASS" starttime="20230629 22:58:10.768" endtime="20230629 22:58:18.805"/>
+</test>
+<status status="PASS" starttime="20230629 22:57:16.459" endtime="20230629 22:58:18.805"/>
+</suite>
+<statistics>
+<total>
+<stat pass="7" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="7" fail="0" skip="0" id="s1" name="test PWM">test PWM</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
